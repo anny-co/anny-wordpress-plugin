@@ -8,6 +8,10 @@
 .git
 .github
 .gitignore
+# Copied to the SVN /assets folder by the deploy action, so it must not
+# also land in trunk. The action only applies its default .gitattributes
+# export-ignore rules when no .distignore exists.
+.wordpress-org
 .distignore
 .editorconfig
 .DS_Store

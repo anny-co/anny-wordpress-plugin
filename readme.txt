@@ -59,6 +59,16 @@ Your data stays in the anny region you choose, global (anny.co) or European (ann
 4. Approve the requested access on the anny consent screen.
 5. Select your organization, optionally import your brand colours, and start adding anny blocks to your pages.
 
+== Screenshots ==
+
+1. A full-width organization page: every bookable resource, with search, filters, categories and a grid, map or calendar view.
+2. A single resource booking page, embedded in your own layout — photos, opening hours, amenities and live availability.
+3. Blocks preview live in the editor, so you write the page against the real widget instead of a grey placeholder.
+4. Twenty blocks, from full booking pages to compact panels and buttons, all in the standard block inserter.
+5. Pick the resource, service or plan from a searchable dropdown — no IDs, no embed snippets.
+6. Connect once with OAuth 2.0, choose your data region and pick the organization the blocks should offer.
+7. Import your brand colours from anny or fine-tune every design token, site-wide or per block.
+
 == Frequently Asked Questions ==
 
 = Do I need an anny account? =
