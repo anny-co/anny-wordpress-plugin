@@ -1,0 +1,32 @@
+// Editor-only styles for anny widget blocks.
+
+.anny-placeholder {
+	.anny-placeholder__fields {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		width: 100%;
+		max-width: 320px;
+	}
+
+	.anny-placeholder__notice {
+		width: 100%;
+		margin: 8px 0 0;
+		font-size: 12px;
+		color: #757575;
+
+		.components-button.is-link {
+			font-size: inherit;
+		}
+	}
+}
+
+.anny-preview {
+	display: block;
+	position: relative;
+	min-height: 40px;
+
+	> * {
+		max-width: 100%;
+	}
+}

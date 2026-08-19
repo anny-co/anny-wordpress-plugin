@@ -1,0 +1,22 @@
+# Files excluded from the distributed plugin, used by the wordpress.org SVN
+# deploy (.github/workflows/deploy.yml). Everything here is development-only;
+# what ships is the runtime plugin, its build output, languages and readme.
+#
+# Keep in sync with the "files" allowlist in package.json, which drives
+# `npm run plugin-zip`.
+
+.git
+.github
+.gitignore
+.distignore
+.editorconfig
+.DS_Store
+
+node_modules
+src
+scripts
+package.json
+package-lock.json
+
+*.log
+*.zip

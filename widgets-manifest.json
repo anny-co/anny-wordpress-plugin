@@ -1,0 +1,190 @@
+{
+  "organization-page": {
+    "element": "a-organization-page",
+    "kind": "page",
+    "entity": "organization",
+    "entityAttr": "organization",
+    "options": ["height", "fullscreen", "nav-height", "default-list", "view", "default-category", "start", "locale", "should-login", "idp-uuid"],
+    "icon": "building",
+    "align": true
+  },
+  "resource-page": {
+    "element": "a-resource-page",
+    "kind": "page",
+    "entity": "resource",
+    "entityAttr": "resource",
+    "options": ["height", "fullscreen", "nav-height", "start", "end", "locale", "should-login", "idp-uuid"],
+    "icon": "calendar",
+    "align": true
+  },
+  "service-page": {
+    "element": "a-service-page",
+    "kind": "page",
+    "entity": "service",
+    "entityAttr": "service",
+    "options": ["height", "fullscreen", "nav-height", "start", "end", "locale", "should-login", "idp-uuid"],
+    "icon": "hammer",
+    "align": true
+  },
+  "resource-calendar": {
+    "element": "a-resource-calendar",
+    "kind": "page",
+    "entity": "resource",
+    "entityAttr": "resource",
+    "options": ["height", "fullscreen", "nav-height", "calendar-view", "start", "end", "locale", "should-login", "idp-uuid"],
+    "icon": "calendar-alt",
+    "align": true,
+    "calendarStart": true
+  },
+  "organization-calendar": {
+    "element": "a-organization-calendar",
+    "kind": "page",
+    "entity": "organization",
+    "entityAttr": "organization",
+    "options": ["height", "fullscreen", "nav-height", "calendar-view", "start", "end", "locale", "should-login", "idp-uuid"],
+    "icon": "calendar-alt",
+    "align": true,
+    "calendarStart": true
+  },
+  "resource-map": {
+    "element": "a-resource-map",
+    "kind": "page",
+    "entity": "resource",
+    "entityAttr": "resource",
+    "options": ["height", "fullscreen", "nav-height", "locale", "should-login", "idp-uuid"],
+    "icon": "location",
+    "align": true
+  },
+  "organization-map": {
+    "element": "a-organization-map",
+    "kind": "page",
+    "entity": "organization",
+    "entityAttr": "organization",
+    "options": ["height", "fullscreen", "nav-height", "locale", "should-login", "idp-uuid"],
+    "icon": "location-alt",
+    "align": true
+  },
+  "subscription-page": {
+    "element": "a-subscription-page",
+    "kind": "page",
+    "entity": "plan",
+    "entityAttr": "plan",
+    "options": ["height", "fullscreen", "nav-height", "locale", "should-login", "idp-uuid"],
+    "icon": "money-alt",
+    "align": true
+  },
+  "package-page": {
+    "element": "a-package-page",
+    "kind": "page",
+    "entity": "package",
+    "entityAttr": "package",
+    "options": ["height", "fullscreen", "nav-height", "locale", "should-login", "idp-uuid"],
+    "icon": "archive",
+    "align": true
+  },
+  "my-bookings": {
+    "element": "a-my-bookings",
+    "kind": "page",
+    "entity": null,
+    "entityAttr": null,
+    "options": ["height", "fullscreen", "nav-height", "locale", "idp-uuid"],
+    "icon": "list-view",
+    "align": true
+  },
+  "resource-booking-panel": {
+    "element": "a-resource-booking-panel",
+    "kind": "panel",
+    "entity": "resource",
+    "entityAttr": "resource",
+    "options": ["start", "end", "locale", "should-login", "idp-uuid"],
+    "icon": "calendar",
+    "align": true
+  },
+  "service-booking-panel": {
+    "element": "a-service-booking-panel",
+    "kind": "panel",
+    "entity": "service",
+    "entityAttr": "service",
+    "options": ["start", "end", "locale", "should-login", "idp-uuid"],
+    "icon": "hammer",
+    "align": true
+  },
+  "resource-button": {
+    "element": "a-resource-button",
+    "kind": "button",
+    "entity": "resource",
+    "entityAttr": "resource",
+    "options": ["label", "modal-layout", "modal-size", "modal-width", "modal-title", "close-on-backdrop", "show-close-button", "aria-label", "start", "end", "locale", "should-login", "idp-uuid"],
+    "icon": "button",
+    "align": false,
+    "innerBlocks": true
+  },
+  "service-button": {
+    "element": "a-service-button",
+    "kind": "button",
+    "entity": "service",
+    "entityAttr": "service",
+    "options": ["label", "modal-layout", "modal-size", "modal-width", "modal-title", "close-on-backdrop", "show-close-button", "aria-label", "start", "end", "locale", "should-login", "idp-uuid"],
+    "icon": "button",
+    "align": false,
+    "innerBlocks": true
+  },
+  "organization-button": {
+    "element": "a-organization-button",
+    "kind": "button",
+    "entity": "organization",
+    "entityAttr": "organization",
+    "options": ["label", "modal-layout", "modal-size", "modal-width", "modal-title", "close-on-backdrop", "show-close-button", "aria-label", "locale", "should-login", "idp-uuid"],
+    "icon": "button",
+    "align": false,
+    "innerBlocks": true
+  },
+  "subscription-button": {
+    "element": "a-subscription-button",
+    "kind": "button",
+    "entity": "plan",
+    "entityAttr": "plan",
+    "options": ["label", "modal-layout", "modal-size", "modal-width", "modal-title", "close-on-backdrop", "show-close-button", "aria-label", "locale", "should-login", "idp-uuid"],
+    "icon": "money-alt",
+    "align": false,
+    "innerBlocks": true
+  },
+  "package-button": {
+    "element": "a-package-button",
+    "kind": "button",
+    "entity": "package",
+    "entityAttr": "package",
+    "options": ["label", "modal-layout", "modal-size", "modal-width", "modal-title", "close-on-backdrop", "show-close-button", "aria-label", "locale", "should-login", "idp-uuid"],
+    "icon": "archive",
+    "align": false,
+    "innerBlocks": true
+  },
+  "modal-button": {
+    "element": "a-modal-button",
+    "kind": "button",
+    "entity": null,
+    "entityAttr": null,
+    "options": ["resource", "organization", "label", "modal-layout", "modal-size", "modal-width", "modal-title", "close-on-backdrop", "show-close-button", "aria-label", "locale", "should-login", "idp-uuid"],
+    "icon": "external",
+    "align": false,
+    "innerBlocks": true
+  },
+  "login-button": {
+    "element": "a-login-button",
+    "kind": "utility",
+    "entity": null,
+    "entityAttr": null,
+    "options": ["show-icon", "locale", "idp-uuid"],
+    "icon": "admin-users",
+    "align": false
+  },
+  "cart-modal-button": {
+    "element": "a-cart-modal-button",
+    "kind": "utility",
+    "entity": null,
+    "entityAttr": null,
+    "options": ["modal-layout", "show-icon", "locale"],
+    "icon": "cart",
+    "align": false
+  }
+}

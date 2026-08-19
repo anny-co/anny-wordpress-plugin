@@ -1,0 +1,1170 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: anny bookings 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/anny-bookings\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-12T14:15:47+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: anny-bookings\n"
+
+#. Author URI of the plugin
+#: anny-bookings.php
+msgid "https://anny.co"
+msgstr "https://anny.co"
+
+#. Description of the plugin
+#: anny-bookings.php
+msgid "Embed anny booking widgets as native Gutenberg blocks — booking pages, panels, buttons, calendars and maps."
+msgstr "Integre os widgets de reservas da anny como blocos nativos do Gutenberg — páginas de reserva, painéis, botões, calendários e mapas."
+
+#. Author of the plugin
+#: anny-bookings.php
+#: includes/Admin/AdminPage.php:43
+#: includes/Admin/AdminPage.php:44
+#: includes/Admin/AdminPage.php:237
+#: includes/Blocks/Blocks.php:126
+#: src/manifest.js:76
+#: src/manifest.js:88
+#: src/manifest.js:100
+#: src/manifest.js:112
+#: src/manifest.js:124
+#: src/manifest.js:136
+#: src/manifest.js:148
+#: src/manifest.js:160
+#: src/manifest.js:172
+#: src/manifest.js:184
+#: src/manifest.js:196
+#: src/manifest.js:208
+#: src/manifest.js:220
+#: src/manifest.js:232
+#: src/manifest.js:244
+#: src/manifest.js:256
+#: src/manifest.js:268
+#: src/manifest.js:280
+#: src/manifest.js:292
+#: src/manifest.js:304
+msgid "anny"
+msgstr "anny"
+
+#: includes/Admin/AdminPage.php:177
+msgid "The stored anny connection could not be read and was removed."
+msgstr "Não foi possível ler a ligação à anny guardada e esta foi removida."
+
+#: includes/Admin/AdminPage.php:179
+msgid "Please reconnect to anny."
+msgstr "Volte a ligar-se à anny."
+
+#: includes/Admin/AdminPage.php:194
+msgid "Successfully connected to anny."
+msgstr "Ligação à anny estabelecida com sucesso."
+
+#: includes/Admin/AdminPage.php:201
+msgid "Disconnected from anny."
+msgstr "Desligado da anny."
+
+#: includes/Admin/AdminPage.php:243
+msgid "Styling"
+msgstr "Estilo"
+
+#: includes/Admin/AdminPage.php:247
+#: includes/Admin/AdminPage.php:296
+msgid "Connection"
+msgstr "Ligação"
+
+#: includes/Admin/AdminPage.php:299
+msgid "Status"
+msgstr "Estado"
+
+#: includes/Admin/AdminPage.php:303
+msgid "Connected"
+msgstr "Ligado"
+
+#. translators: 1: user name, 2: user email.
+#: includes/Admin/AdminPage.php:308
+#, php-format
+msgid "as %1$s (%2$s)"
+msgstr "como %1$s (%2$s)"
+
+#: includes/Admin/AdminPage.php:318
+msgid "Disconnect"
+msgstr "Desligar"
+
+#: includes/Admin/AdminPage.php:321
+msgid "Not connected"
+msgstr "Sem ligação"
+
+#: includes/Admin/AdminPage.php:326
+msgid "Connect with anny"
+msgstr "Ligar à anny"
+
+#: includes/Admin/AdminPage.php:330
+msgid "This region has no OAuth client configured yet, so connecting is not possible."
+msgstr "Esta região ainda não tem um cliente OAuth configurado, pelo que não é possível estabelecer a ligação."
+
+#: includes/Admin/AdminPage.php:344
+msgid "Data region"
+msgstr "Região dos dados"
+
+#: includes/Admin/AdminPage.php:355
+msgid "The anny region your data lives in. Changing the region disconnects the current anny account."
+msgstr "A região da anny onde estão os seus dados. Mudar de região desliga a conta anny atual."
+
+#: includes/Admin/AdminPage.php:361
+#: includes/Admin/AdminPage.php:365
+#: src/components/entity-picker.js:26
+msgid "Organization"
+msgstr "Organização"
+
+#: includes/Admin/AdminPage.php:389
+msgid "Not connected to anny yet — brand import and the block entity pickers are unavailable."
+msgstr "Ainda sem ligação à anny — a importação da marca e os seletores dos blocos não estão disponíveis."
+
+#: includes/Admin/AdminPage.php:391
+msgid "Set up the connection"
+msgstr "Configurar a ligação"
+
+#: includes/Admin/AdminPage.php:399
+msgid "Design tokens"
+msgstr "Tokens de design"
+
+#: includes/Admin/AdminPage.php:401
+msgid "Global styling for all anny widgets on this site. Individual blocks can override every token. Empty fields keep the widget default."
+msgstr "Estilo global para todos os widgets anny deste site. Cada bloco pode substituir qualquer token. Os campos vazios mantêm o valor predefinido do widget."
+
+#: includes/Admin/AdminPage.php:410
+msgid "Import brand from anny"
+msgstr "Importar a marca da anny"
+
+#: includes/Admin/AdminPage.php:414
+msgid "Fills the color fields from the brand of your anny organization."
+msgstr "Preenche os campos de cor com a marca da sua organização anny."
+
+#: includes/Admin/AdminPage.php:427
+msgid "Defaults"
+msgstr "Predefinições"
+
+#: includes/Admin/AdminPage.php:431
+msgid "Widget language"
+msgstr "Idioma do widget"
+
+#: includes/Admin/AdminPage.php:448
+#: src/components/options-panel.js:30
+msgid "Require login"
+msgstr "Exigir sessão iniciada"
+
+#: includes/Admin/AdminPage.php:457
+msgid "Visitors must log in to anny before booking."
+msgstr "Os visitantes têm de iniciar sessão na anny antes de reservar."
+
+#: includes/Admin/AdminPage.php:463
+#: src/components/options-panel.js:31
+msgid "Identity provider UUID"
+msgstr "UUID do fornecedor de identidade"
+
+#: includes/Admin/AdminPage.php:474
+msgid "Optional: UUID of a single-sign-on identity provider used by the widgets."
+msgstr "Opcional: UUID de um fornecedor de identidade de início de sessão único usado pelos widgets."
+
+#: includes/Admin/AdminPage.php:494
+msgid "Connect with anny to pick one of your organizations."
+msgstr "Ligue-se à anny para escolher uma das suas organizações."
+
+#: includes/Admin/AdminPage.php:514
+msgid "Your anny organizations could not be loaded right now. Please try again later."
+msgstr "Não foi possível carregar as suas organizações anny neste momento. Tente novamente mais tarde."
+
+#: includes/Admin/AdminPage.php:522
+msgid "— No organization —"
+msgstr "— Sem organização —"
+
+#: includes/Admin/AdminPage.php:533
+msgid "The organization whose resources, services and plans the block pickers offer."
+msgstr "A organização cujos recursos, serviços e planos são apresentados nos seletores dos blocos."
+
+#: includes/Admin/AdminPage.php:615
+msgid "Brand colors"
+msgstr "Cores da marca"
+
+#: includes/Admin/AdminPage.php:625
+msgid "Text colors"
+msgstr "Cores do texto"
+
+#: includes/Admin/AdminPage.php:634
+msgid "Backgrounds"
+msgstr "Fundos"
+
+#: includes/Admin/AdminPage.php:645
+msgid "Borders & buttons"
+msgstr "Contornos e botões"
+
+#: includes/Admin/AdminPage.php:655
+msgid "Layout & effects"
+msgstr "Disposição e efeitos"
+
+#: includes/Admin/AdminPage.php:670
+#: src/manifest.js:320
+msgid "Primary color"
+msgstr "Cor primária"
+
+#: includes/Admin/AdminPage.php:671
+#: src/manifest.js:321
+msgid "Primary color (hover)"
+msgstr "Cor primária (hover)"
+
+#: includes/Admin/AdminPage.php:672
+msgid "Primary color overlay"
+msgstr "Sobreposição da cor primária"
+
+#: includes/Admin/AdminPage.php:673
+#: src/manifest.js:322
+msgid "Secondary color"
+msgstr "Cor secundária"
+
+#: includes/Admin/AdminPage.php:674
+#: src/manifest.js:323
+msgid "Primary stroke color"
+msgstr "Cor do traço primário"
+
+#: includes/Admin/AdminPage.php:675
+msgid "Primary text color"
+msgstr "Cor do texto primário"
+
+#: includes/Admin/AdminPage.php:676
+msgid "Secondary text color"
+msgstr "Cor do texto secundário"
+
+#: includes/Admin/AdminPage.php:677
+msgid "Tertiary text color"
+msgstr "Cor do texto terciário"
+
+#: includes/Admin/AdminPage.php:678
+#: src/manifest.js:327
+msgid "Primary background"
+msgstr "Fundo primário"
+
+#: includes/Admin/AdminPage.php:679
+#: src/manifest.js:328
+msgid "Panel background"
+msgstr "Fundo do painel"
+
+#: includes/Admin/AdminPage.php:680
+#: src/manifest.js:329
+msgid "Panel background (light)"
+msgstr "Fundo do painel (claro)"
+
+#: includes/Admin/AdminPage.php:681
+msgid "Panel background overlay"
+msgstr "Sobreposição do fundo do painel"
+
+#: includes/Admin/AdminPage.php:682
+msgid "Panel background overlay (dense)"
+msgstr "Sobreposição do fundo do painel (densa)"
+
+#: includes/Admin/AdminPage.php:683
+#: src/manifest.js:330
+msgid "Panel background (dark)"
+msgstr "Fundo do painel (escuro)"
+
+#: includes/Admin/AdminPage.php:684
+#: src/manifest.js:331
+msgid "Input background"
+msgstr "Fundo dos campos"
+
+#: includes/Admin/AdminPage.php:685
+#: src/manifest.js:332
+msgid "Light border color"
+msgstr "Cor do contorno claro"
+
+#: includes/Admin/AdminPage.php:686
+#: src/manifest.js:333
+msgid "Table border color"
+msgstr "Cor do contorno das tabelas"
+
+#: includes/Admin/AdminPage.php:687
+#: src/manifest.js:334
+msgid "Button background"
+msgstr "Fundo dos botões"
+
+#: includes/Admin/AdminPage.php:688
+#: src/manifest.js:335
+msgid "Button text color"
+msgstr "Cor do texto dos botões"
+
+#: includes/Admin/AdminPage.php:689
+#: src/manifest.js:341
+msgid "Small border radius"
+msgstr "Raio de canto pequeno"
+
+#: includes/Admin/AdminPage.php:690
+#: src/manifest.js:342
+msgid "Panel border radius"
+msgstr "Raio de canto do painel"
+
+#: includes/Admin/AdminPage.php:691
+#: src/manifest.js:343
+msgid "Detail border radius"
+msgstr "Raio de canto dos detalhes"
+
+#: includes/Admin/AdminPage.php:692
+#: src/manifest.js:344
+msgid "Panel border style"
+msgstr "Estilo do contorno do painel"
+
+#: includes/Admin/AdminPage.php:693
+#: src/manifest.js:345
+msgid "Panel shadow"
+msgstr "Sombra do painel"
+
+#: includes/Admin/AdminPage.php:694
+#: src/manifest.js:346
+msgid "Detail shadow"
+msgstr "Sombra dos detalhes"
+
+#: includes/Admin/AdminPage.php:695
+#: src/manifest.js:347
+msgid "Button width"
+msgstr "Largura do botão"
+
+#: includes/Admin/AdminPage.php:696
+#: src/manifest.js:348
+msgid "Button height"
+msgstr "Altura do botão"
+
+#: includes/Admin/AdminPage.php:697
+#: src/manifest.js:349
+msgid "Logo URL"
+msgstr "URL do logótipo"
+
+#: includes/Admin/AdminPage.php:704
+msgid "This region has no OAuth client configured yet."
+msgstr "Esta região ainda não tem um cliente OAuth configurado."
+
+#: includes/Admin/AdminPage.php:705
+msgid "The login response was missing its state parameter."
+msgstr "Faltava o parâmetro state na resposta de início de sessão."
+
+#: includes/Admin/AdminPage.php:706
+msgid "The login attempt expired or was already used. Please try again."
+msgstr "A tentativa de início de sessão expirou ou já foi utilizada. Tente novamente."
+
+#: includes/Admin/AdminPage.php:707
+msgid "The login response was missing the authorization code."
+msgstr "Faltava o código de autorização na resposta de início de sessão."
+
+#: includes/Admin/AdminPage.php:708
+msgid "anny did not accept the authorization code. Please try again."
+msgstr "A anny não aceitou o código de autorização. Tente novamente."
+
+#: includes/Admin/AdminPage.php:709
+msgid "The login was cancelled on the anny consent screen."
+msgstr "O início de sessão foi cancelado no ecrã de consentimento da anny."
+
+#. translators: %s: error code.
+#: includes/Admin/AdminPage.php:714
+#, php-format
+msgid "Connecting to anny failed (%s)."
+msgstr "A ligação à anny falhou (%s)."
+
+#: includes/Api/ApiClient.php:41
+msgid "No anny region is configured."
+msgstr "Não está configurada nenhuma região da anny."
+
+#: includes/Api/ApiClient.php:53
+msgid "This site is not connected to anny."
+msgstr "Este site não está ligado à anny."
+
+#. translators: %d: HTTP status code.
+#: includes/Api/ApiClient.php:92
+#, php-format
+msgid "The anny API request failed (HTTP %d)."
+msgstr "O pedido à API da anny falhou (HTTP %d)."
+
+#: includes/Blocks/Manifest.php:53
+#: src/manifest.js:68
+msgid "anny Organization Page"
+msgstr "anny Página de organização"
+
+#: includes/Blocks/Manifest.php:54
+msgid "Embed the full booking page of an anny organization."
+msgstr "Integre a página de reservas completa de uma organização anny."
+
+#: includes/Blocks/Manifest.php:57
+#: src/manifest.js:80
+msgid "anny Resource Page"
+msgstr "anny Página de recurso"
+
+#: includes/Blocks/Manifest.php:58
+msgid "Embed the booking page of a single anny resource."
+msgstr "Integre a página de reservas de um recurso anny."
+
+#: includes/Blocks/Manifest.php:61
+#: src/manifest.js:92
+msgid "anny Service Page"
+msgstr "anny Página de serviço"
+
+#: includes/Blocks/Manifest.php:62
+msgid "Embed the booking page of an anny service."
+msgstr "Integre a página de reservas de um serviço anny."
+
+#: includes/Blocks/Manifest.php:65
+#: src/manifest.js:104
+msgid "anny Resource Calendar"
+msgstr "anny Calendário de recurso"
+
+#: includes/Blocks/Manifest.php:66
+msgid "Show the availability calendar of an anny resource."
+msgstr "Mostre o calendário de disponibilidade de um recurso anny."
+
+#: includes/Blocks/Manifest.php:69
+#: src/manifest.js:116
+msgid "anny Organization Calendar"
+msgstr "anny Calendário de organização"
+
+#: includes/Blocks/Manifest.php:70
+msgid "Show the availability calendar of an anny organization."
+msgstr "Mostre o calendário de disponibilidade de uma organização anny."
+
+#: includes/Blocks/Manifest.php:73
+#: src/manifest.js:128
+msgid "anny Resource Map"
+msgstr "anny Mapa de recurso"
+
+#: includes/Blocks/Manifest.php:74
+msgid "Show an interactive map for an anny resource."
+msgstr "Mostre um mapa interativo de um recurso anny."
+
+#: includes/Blocks/Manifest.php:77
+#: src/manifest.js:140
+msgid "anny Organization Map"
+msgstr "anny Mapa de organização"
+
+#: includes/Blocks/Manifest.php:78
+msgid "Show an interactive map of the resources of an anny organization."
+msgstr "Mostre um mapa interativo dos recursos de uma organização anny."
+
+#: includes/Blocks/Manifest.php:81
+#: src/manifest.js:152
+msgid "anny Subscription Page"
+msgstr "anny Página de subscrição"
+
+#: includes/Blocks/Manifest.php:82
+msgid "Embed the subscription page of an anny plan."
+msgstr "Integre a página de subscrição de um plano anny."
+
+#: includes/Blocks/Manifest.php:85
+#: src/manifest.js:164
+msgid "anny Package Page"
+msgstr "anny Página de pacote"
+
+#: includes/Blocks/Manifest.php:86
+msgid "Embed the booking page of an anny package."
+msgstr "Integre a página de reservas de um pacote anny."
+
+#: includes/Blocks/Manifest.php:89
+#: src/manifest.js:176
+msgid "anny My Bookings"
+msgstr "anny As minhas reservas"
+
+#: includes/Blocks/Manifest.php:90
+msgid "Let visitors view and manage their anny bookings."
+msgstr "Permita que os visitantes consultem e giram as suas reservas anny."
+
+#: includes/Blocks/Manifest.php:93
+#: src/manifest.js:188
+msgid "anny Resource Booking Panel"
+msgstr "anny Painel de reserva de recurso"
+
+#: includes/Blocks/Manifest.php:94
+msgid "Embed a compact booking panel for an anny resource."
+msgstr "Integre um painel de reservas compacto para um recurso anny."
+
+#: includes/Blocks/Manifest.php:97
+#: src/manifest.js:200
+msgid "anny Service Booking Panel"
+msgstr "anny Painel de reserva de serviço"
+
+#: includes/Blocks/Manifest.php:98
+msgid "Embed a compact booking panel for an anny service."
+msgstr "Integre um painel de reservas compacto para um serviço anny."
+
+#: includes/Blocks/Manifest.php:101
+#: src/manifest.js:212
+msgid "anny Resource Button"
+msgstr "anny Botão de recurso"
+
+#: includes/Blocks/Manifest.php:102
+#: src/manifest.js:213
+msgid "A button that opens the booking dialog for an anny resource."
+msgstr "Um botão que abre a janela de reserva de um recurso anny."
+
+#: includes/Blocks/Manifest.php:105
+#: src/manifest.js:224
+msgid "anny Service Button"
+msgstr "anny Botão de serviço"
+
+#: includes/Blocks/Manifest.php:106
+#: src/manifest.js:225
+msgid "A button that opens the booking dialog for an anny service."
+msgstr "Um botão que abre a janela de reserva de um serviço anny."
+
+#: includes/Blocks/Manifest.php:109
+#: src/manifest.js:236
+msgid "anny Organization Button"
+msgstr "anny Botão de organização"
+
+#: includes/Blocks/Manifest.php:110
+#: src/manifest.js:237
+msgid "A button that opens the booking dialog for an anny organization."
+msgstr "Um botão que abre a janela de reserva de uma organização anny."
+
+#: includes/Blocks/Manifest.php:113
+#: src/manifest.js:248
+msgid "anny Subscription Button"
+msgstr "anny Botão de subscrição"
+
+#: includes/Blocks/Manifest.php:114
+msgid "A button that opens the subscription dialog for an anny plan."
+msgstr "Um botão que abre a janela de subscrição de um plano anny."
+
+#: includes/Blocks/Manifest.php:117
+#: src/manifest.js:260
+msgid "anny Package Button"
+msgstr "anny Botão de pacote"
+
+#: includes/Blocks/Manifest.php:118
+#: src/manifest.js:261
+msgid "A button that opens the booking dialog for an anny package."
+msgstr "Um botão que abre a janela de reserva de um pacote anny."
+
+#: includes/Blocks/Manifest.php:121
+#: src/manifest.js:272
+msgid "anny Modal Button"
+msgstr "anny Botão modal"
+
+#: includes/Blocks/Manifest.php:122
+msgid "A configurable button that opens an anny booking dialog."
+msgstr "Um botão configurável que abre uma janela de reserva da anny."
+
+#: includes/Blocks/Manifest.php:125
+#: src/manifest.js:284
+msgid "anny Login Button"
+msgstr "anny Botão de início de sessão"
+
+#: includes/Blocks/Manifest.php:126
+msgid "A button that lets visitors log in to their anny account."
+msgstr "Um botão que permite aos visitantes iniciar sessão na sua conta anny."
+
+#: includes/Blocks/Manifest.php:129
+#: src/manifest.js:296
+msgid "anny Cart Button"
+msgstr "anny Botão do carrinho"
+
+#: includes/Blocks/Manifest.php:130
+msgid "A button that opens the anny booking cart."
+msgstr "Um botão que abre o carrinho de reservas da anny."
+
+#: includes/Oauth/OauthClient.php:60
+msgid "You are not allowed to connect this site to anny."
+msgstr "Não tem permissão para ligar este site à anny."
+
+#: includes/Oauth/OauthClient.php:119
+msgid "You are not allowed to disconnect this site from anny."
+msgstr "Não tem permissão para desligar este site da anny."
+
+#: includes/Oauth/OauthClient.php:141
+msgid "The anny region of this login attempt is not configured."
+msgstr "A região da anny desta tentativa de início de sessão não está configurada."
+
+#. translators: %d: HTTP status code.
+#: includes/Oauth/OauthClient.php:354
+#, php-format
+msgid "The anny token endpoint returned an error (HTTP %d)."
+msgstr "O endpoint de tokens da anny devolveu um erro (HTTP %d)."
+
+#: includes/Oauth/OauthClient.php:372
+msgid "The anny token response did not contain an access token."
+msgstr "A resposta de token da anny não continha um token de acesso."
+
+#: includes/Rest/EntitiesController.php:144
+#: includes/Rest/EntitiesController.php:239
+msgid "Select an anny organization on the settings page first."
+msgstr "Selecione primeiro uma organização anny na página de definições."
+
+#: includes/Rest/EntitiesController.php:168
+msgid "Unknown entity type."
+msgstr "Tipo de entidade desconhecido."
+
+#: includes/Rest/EntitiesController.php:192
+msgid "The anny API request failed."
+msgstr "O pedido à API da anny falhou."
+
+#: src/admin/brand-import.js:84
+msgid "Importing brand from anny…"
+msgstr "A importar a marca da anny…"
+
+#. translators: %d: number of imported design token values.
+#: src/admin/brand-import.js:100
+#, js-format
+msgid "Imported %d value. Save changes to keep it."
+msgid_plural "Imported %d values. Save changes to keep them."
+msgstr[0] "%d valor importado. Guarde as alterações para o manter."
+msgstr[1] "%d valores importados. Guarde as alterações para os manter."
+
+#: src/admin/brand-import.js:108
+msgid "No brand values found for this organization."
+msgstr "Não foram encontrados valores de marca para esta organização."
+
+#: src/admin/brand-import.js:113
+msgid "Brand import failed."
+msgstr "A importação da marca falhou."
+
+#: src/components/design-token-panel.js:30
+msgid "Design overrides: colors"
+msgstr "Personalizações de design: cores"
+
+#: src/components/design-token-panel.js:40
+msgid "Design overrides: details"
+msgstr "Personalizações de design: detalhes"
+
+#: src/components/edit.js:101
+msgid "This site is not connected to anny yet."
+msgstr "Este site ainda não está ligado à anny."
+
+#: src/components/edit.js:106
+msgid "Open anny settings"
+msgstr "Abrir as definições da anny"
+
+#: src/components/entity-picker.js:24
+msgid "Resource"
+msgstr "Recurso"
+
+#: src/components/entity-picker.js:25
+msgid "Service"
+msgstr "Serviço"
+
+#: src/components/entity-picker.js:27
+msgid "Plan"
+msgstr "Plano"
+
+#: src/components/entity-picker.js:28
+msgid "Package"
+msgstr "Pacote"
+
+#: src/components/entity-picker.js:29
+msgid "Category"
+msgstr "Categoria"
+
+#: src/components/entity-picker.js:71
+msgid "Select an organization on the anny settings page to scope this site."
+msgstr "Selecione na página de definições da anny a organização a que este site fica associado."
+
+#: src/components/entity-picker.js:82
+msgid "Site organization"
+msgstr "Organização do site"
+
+#: src/components/entity-picker.js:83
+msgid "No organization"
+msgstr "Sem organização"
+
+#: src/components/entity-picker.js:104
+msgid "Follows the organization selected in the anny settings."
+msgstr "Segue a organização selecionada nas definições da anny."
+
+#: src/components/entity-picker.js:105
+msgid "Only the organization selected in the anny settings can be embedded."
+msgstr "Só é possível integrar a organização selecionada nas definições da anny."
+
+#: src/components/entity-picker.js:166
+msgid "Entity"
+msgstr "Entidade"
+
+#: src/components/entity-picker.js:190
+msgid "Enter the package slug from your anny admin. Packages cannot be searched automatically."
+msgstr "Introduza a slug do pacote a partir da administração da anny. Os pacotes não podem ser pesquisados automaticamente."
+
+#: src/components/entity-picker.js:191
+msgid "Enter the slug from your anny admin."
+msgstr "Introduza a slug a partir da administração da anny."
+
+#: src/components/options-panel.js:20
+msgid "Height"
+msgstr "Altura"
+
+#: src/components/options-panel.js:21
+#: src/components/options-panel.js:90
+msgid "Fullscreen"
+msgstr "Ecrã inteiro"
+
+#: src/components/options-panel.js:22
+msgid "Navigation height"
+msgstr "Altura da navegação"
+
+#: src/components/options-panel.js:23
+msgid "Default list"
+msgstr "Lista predefinida"
+
+#: src/components/options-panel.js:24
+msgid "Initial view"
+msgstr "Vista inicial"
+
+#: src/components/options-panel.js:25
+msgid "Default category"
+msgstr "Categoria predefinida"
+
+#: src/components/options-panel.js:26
+msgid "Calendar view"
+msgstr "Vista do calendário"
+
+#: src/components/options-panel.js:27
+msgid "Start date"
+msgstr "Data de início"
+
+#: src/components/options-panel.js:28
+msgid "End date"
+msgstr "Data de fim"
+
+#: src/components/options-panel.js:29
+msgid "Language"
+msgstr "Idioma"
+
+#: src/components/options-panel.js:32
+msgid "Button label"
+msgstr "Texto do botão"
+
+#: src/components/options-panel.js:33
+msgid "Modal layout"
+msgstr "Disposição da janela"
+
+#: src/components/options-panel.js:34
+msgid "Modal size"
+msgstr "Tamanho da janela"
+
+#: src/components/options-panel.js:35
+msgid "Modal width"
+msgstr "Largura da janela"
+
+#: src/components/options-panel.js:36
+msgid "Modal title"
+msgstr "Título da janela"
+
+#: src/components/options-panel.js:37
+msgid "Close on backdrop click"
+msgstr "Fechar ao clicar no fundo"
+
+#: src/components/options-panel.js:38
+msgid "Show close button"
+msgstr "Mostrar o botão de fechar"
+
+#: src/components/options-panel.js:39
+msgid "ARIA label"
+msgstr "Etiqueta ARIA"
+
+#: src/components/options-panel.js:40
+msgid "Show icon"
+msgstr "Mostrar o ícone"
+
+#: src/components/options-panel.js:41
+msgid "Resource slug"
+msgstr "Slug do recurso"
+
+#: src/components/options-panel.js:42
+msgid "Organization slug"
+msgstr "Slug da organização"
+
+#: src/components/options-panel.js:87
+#: src/components/options-panel.js:93
+#: src/components/options-panel.js:99
+#: src/components/options-panel.js:106
+#: src/components/options-panel.js:112
+#: src/components/options-panel.js:160
+msgid "Default"
+msgstr "Predefinido"
+
+#: src/components/options-panel.js:88
+msgid "Dialog"
+msgstr "Janela de diálogo"
+
+#: src/components/options-panel.js:89
+msgid "Drawer"
+msgstr "Painel lateral"
+
+#: src/components/options-panel.js:94
+msgid "Small"
+msgstr "Pequeno"
+
+#: src/components/options-panel.js:95
+msgid "Medium"
+msgstr "Médio"
+
+#: src/components/options-panel.js:96
+msgid "Large"
+msgstr "Grande"
+
+#: src/components/options-panel.js:100
+msgid "Day"
+msgstr "Dia"
+
+#: src/components/options-panel.js:101
+msgid "Week"
+msgstr "Semana"
+
+#: src/components/options-panel.js:102
+msgid "Month"
+msgstr "Mês"
+
+#: src/components/options-panel.js:103
+#: src/components/options-panel.js:107
+msgid "List"
+msgstr "Lista"
+
+#: src/components/options-panel.js:108
+msgid "Map"
+msgstr "Mapa"
+
+#: src/components/options-panel.js:109
+msgid "Calendar"
+msgstr "Calendário"
+
+#: src/components/options-panel.js:113
+msgid "Resources"
+msgstr "Recursos"
+
+#: src/components/options-panel.js:114
+msgid "Services"
+msgstr "Serviços"
+
+#: src/components/options-panel.js:115
+msgid "Plans"
+msgstr "Planos"
+
+#: src/components/options-panel.js:116
+msgid "Packages"
+msgstr "Pacotes"
+
+#: src/components/options-panel.js:145
+msgid "ISO date, e.g. 2026-07-01. Calendars do not support relative keywords."
+msgstr "Data ISO, por exemplo 2026-07-01. Os calendários não suportam palavras-chave relativas."
+
+#: src/components/options-panel.js:161
+msgid "Today"
+msgstr "Hoje"
+
+#: src/components/options-panel.js:162
+msgid "Tomorrow"
+msgstr "Amanhã"
+
+#: src/components/options-panel.js:163
+msgid "This week"
+msgstr "Esta semana"
+
+#: src/components/options-panel.js:164
+msgid "Next week"
+msgstr "Próxima semana"
+
+#: src/components/options-panel.js:165
+msgid "This month"
+msgstr "Este mês"
+
+#: src/components/options-panel.js:166
+msgid "Next month"
+msgstr "Próximo mês"
+
+#: src/components/options-panel.js:167
+msgid "Custom date…"
+msgstr "Data personalizada…"
+
+#: src/components/options-panel.js:185
+msgid "Custom start date"
+msgstr "Data de início personalizada"
+
+#: src/components/options-panel.js:189
+msgid "ISO date, e.g. 2026-07-01."
+msgstr "Data ISO, por exemplo 2026-07-01."
+
+#: src/components/options-panel.js:210
+msgid "Category the organization page opens on. Leave empty to show everything."
+msgstr "Categoria com que a página da organização abre. Deixe vazio para mostrar tudo."
+
+#: src/components/options-panel.js:239
+msgid "ISO date, e.g. 2026-07-31."
+msgstr "Data ISO, por exemplo 2026-07-31."
+
+#: src/components/options-panel.js:314
+msgid "Widget settings"
+msgstr "Definições do widget"
+
+#: src/components/options-panel.js:326
+msgid "Use custom trigger"
+msgstr "Usar um acionador personalizado"
+
+#: src/components/options-panel.js:327
+msgid "Design the trigger with your own blocks instead of the built-in button."
+msgstr "Construa o acionador com os seus próprios blocos em vez do botão integrado."
+
+#: src/manifest.js:69
+msgid "Embed the complete booking page of an anny organization, with resource lists, search and checkout."
+msgstr "Integre a página de reservas completa de uma organização anny, com listas de recursos, pesquisa e pagamento."
+
+#: src/manifest.js:74
+#: src/manifest.js:86
+#: src/manifest.js:98
+#: src/manifest.js:171
+#: src/manifest.js:194
+#: src/manifest.js:206
+msgid "booking"
+msgstr "reserva"
+
+#: src/manifest.js:75
+#: src/manifest.js:147
+#: src/manifest.js:243
+msgid "organization"
+msgstr "organização"
+
+#: src/manifest.js:81
+msgid "Embed the booking page of a single anny resource, such as a room, desk or piece of equipment."
+msgstr "Integre a página de reservas de um recurso anny, como uma sala, um posto de trabalho ou um equipamento."
+
+#: src/manifest.js:87
+#: src/manifest.js:135
+#: src/manifest.js:219
+msgid "resource"
+msgstr "recurso"
+
+#: src/manifest.js:93
+msgid "Embed the booking page of a single anny service, such as a tour, class or appointment."
+msgstr "Integre a página de reservas de um serviço anny, como uma visita, uma aula ou uma marcação."
+
+#: src/manifest.js:99
+#: src/manifest.js:231
+msgid "service"
+msgstr "serviço"
+
+#: src/manifest.js:105
+msgid "Show the availability calendar of a single anny resource."
+msgstr "Mostre o calendário de disponibilidade de um recurso anny."
+
+#: src/manifest.js:110
+#: src/manifest.js:122
+msgid "calendar"
+msgstr "calendário"
+
+#: src/manifest.js:111
+#: src/manifest.js:123
+msgid "availability"
+msgstr "disponibilidade"
+
+#: src/manifest.js:117
+msgid "Show the availability calendar for the bookable resources of an anny organization."
+msgstr "Mostre o calendário de disponibilidade dos recursos reserváveis de uma organização anny."
+
+#: src/manifest.js:129
+msgid "Show a single anny resource on an interactive map."
+msgstr "Mostre um recurso anny num mapa interativo."
+
+#: src/manifest.js:134
+#: src/manifest.js:146
+msgid "map"
+msgstr "mapa"
+
+#: src/manifest.js:141
+msgid "Show the bookable resources of an anny organization on an interactive map."
+msgstr "Mostre os recursos reserváveis de uma organização anny num mapa interativo."
+
+#: src/manifest.js:153
+msgid "Embed the sign-up page for an anny subscription plan."
+msgstr "Integre a página de adesão a um plano de subscrição anny."
+
+#: src/manifest.js:158
+#: src/manifest.js:255
+msgid "subscription"
+msgstr "subscrição"
+
+#: src/manifest.js:159
+msgid "plan"
+msgstr "plano"
+
+#: src/manifest.js:165
+msgid "Embed the booking page for an anny package."
+msgstr "Integre a página de reservas de um pacote anny."
+
+#: src/manifest.js:170
+#: src/manifest.js:267
+msgid "package"
+msgstr "pacote"
+
+#: src/manifest.js:177
+msgid "Let signed-in customers view and manage their anny bookings."
+msgstr "Permita que os clientes com sessão iniciada consultem e giram as suas reservas anny."
+
+#: src/manifest.js:182
+msgid "bookings"
+msgstr "reservas"
+
+#: src/manifest.js:183
+#: src/manifest.js:291
+msgid "account"
+msgstr "conta"
+
+#: src/manifest.js:189
+msgid "Compact booking panel for a single anny resource that embeds seamlessly into your layout."
+msgstr "Painel de reservas compacto para um recurso anny, que se integra naturalmente na sua disposição."
+
+#: src/manifest.js:195
+#: src/manifest.js:207
+msgid "panel"
+msgstr "painel"
+
+#: src/manifest.js:201
+msgid "Compact booking panel for a single anny service that embeds seamlessly into your layout."
+msgstr "Painel de reservas compacto para um serviço anny, que se integra naturalmente na sua disposição."
+
+#: src/manifest.js:218
+#: src/manifest.js:230
+#: src/manifest.js:242
+#: src/manifest.js:254
+#: src/manifest.js:266
+#: src/manifest.js:278
+msgid "button"
+msgstr "botão"
+
+#: src/manifest.js:249
+msgid "A button that opens the sign-up dialog for an anny subscription plan."
+msgstr "Um botão que abre a janela de adesão a um plano de subscrição anny."
+
+#: src/manifest.js:273
+msgid "A button that opens an anny booking dialog for a resource or organization of your choice."
+msgstr "Um botão que abre uma janela de reserva da anny para o recurso ou a organização à sua escolha."
+
+#: src/manifest.js:279
+msgid "modal"
+msgstr "modal"
+
+#: src/manifest.js:285
+msgid "A button that lets visitors sign in to their anny account."
+msgstr "Um botão que permite aos visitantes iniciar sessão na sua conta anny."
+
+#: src/manifest.js:290
+msgid "login"
+msgstr "início de sessão"
+
+#: src/manifest.js:297
+msgid "A button that opens the anny shopping cart."
+msgstr "Um botão que abre o carrinho da anny."
+
+#: src/manifest.js:302
+msgid "cart"
+msgstr "carrinho"
+
+#: src/manifest.js:303
+msgid "checkout"
+msgstr "pagamento"
+
+#: src/manifest.js:324
+msgid "Text color (primary)"
+msgstr "Cor do texto (primária)"
+
+#: src/manifest.js:325
+msgid "Text color (secondary)"
+msgstr "Cor do texto (secundária)"
+
+#: src/manifest.js:326
+msgid "Text color (tertiary)"
+msgstr "Cor do texto (terciária)"
+
+#: src/manifest.js:338
+msgid "Primary color (overlay)"
+msgstr "Cor primária (sobreposição)"
+
+#: src/manifest.js:339
+msgid "Panel background (overlay)"
+msgstr "Fundo do painel (sobreposição)"
+
+#: src/manifest.js:340
+msgid "Panel background (dense overlay)"
+msgstr "Fundo do painel (sobreposição densa)"
+
+#: includes/Admin/AdminPage.php:443
+msgid "Widget language code, e.g. \"de\", \"en\", or \"de-formal\" for formal German. Leave empty to use the site language."
+msgstr "Código de idioma dos widgets, por exemplo «de», «en» ou «de-formal» para alemão formal. Deixe vazio para usar o idioma do site."
+
+#: src/components/options-panel.js:295
+msgid "Widget language code, e.g. \"de\" or \"de-formal\" for formal German. Leave empty to use the site default."
+msgstr "Código de idioma do widget, por exemplo «de» ou «de-formal» para alemão formal. Deixe vazio para usar a predefinição do site."
+
+#: includes/Admin/AdminPage.php:585
+#: src/manifest.js:366
+msgid "CSS length, e.g. 8px or 0."
+msgstr "Comprimento CSS, por exemplo 8px ou 0."
+
+#: includes/Admin/AdminPage.php:586
+#: src/manifest.js:371
+msgid "CSS box-shadow, e.g. 0 2px 8px rgba(0, 0, 0, 0.1) — or none."
+msgstr "box-shadow de CSS, por exemplo 0 2px 8px rgba(0, 0, 0, 0.1) — ou none."
+
+#: includes/Admin/AdminPage.php:587
+#: src/manifest.js:375
+msgid "CSS length, e.g. 200px or 100%."
+msgstr "Comprimento CSS, por exemplo 200px ou 100%."
+
+#: includes/Admin/AdminPage.php:588
+#: src/manifest.js:362
+msgid "Any CSS color. Overlays are usually semi-transparent, e.g. rgba(97, 149, 237, 0.14)."
+msgstr "Qualquer cor CSS. As sobreposições são normalmente semitransparentes, por exemplo rgba(97, 149, 237, 0.14)."
+
+#: includes/Admin/AdminPage.php:597
+#: src/manifest.js:367
+msgid "CSS border shorthand, e.g. 1px solid #e5e5e5 — or none."
+msgstr "Abreviatura border de CSS, por exemplo 1px solid #e5e5e5 — ou none."
+
+#: includes/Admin/AdminPage.php:602
+#: src/manifest.js:376
+msgid "Full URL of an image, e.g. https://example.com/logo.svg."
+msgstr "URL completo de uma imagem, por exemplo https://example.com/logo.svg."
+
+#: src/components/options-panel.js:50
+msgid "Height of the embedded widget. Ignored while Fullscreen is on."
+msgstr "Altura do widget incorporado. É ignorada enquanto o ecrã inteiro estiver ativo."
+
+#: src/components/options-panel.js:54
+msgid "Make the widget as tall as the browser window instead of using the height above."
+msgstr "Faz o widget ficar tão alto como a janela do navegador, em vez de usar a altura acima."
+
+#: src/components/options-panel.js:58
+msgid "Height of your fixed site header. In fullscreen it is subtracted from the window height so your header stays visible."
+msgstr "Altura do cabeçalho fixo do seu site. Em ecrã inteiro é subtraída à altura da janela, para que o seu cabeçalho continue visível."
+
+#: src/components/options-panel.js:62
+msgid "How the dialog opens: centred, as a side drawer, or full screen."
+msgstr "Como a janela abre: centrada, como painel lateral ou em ecrã inteiro."
+
+#: src/components/options-panel.js:66
+msgid "Preset dialog width. Modal width overrides it."
+msgstr "Largura predefinida da janela. A largura exata tem prioridade."
+
+#: src/components/options-panel.js:70
+msgid "Exact dialog width, e.g. 720px or 90%."
+msgstr "Largura exata da janela, por exemplo 720px ou 90%."
+
+#: src/components/options-panel.js:71
+msgid "Close the dialog when the visitor clicks the dimmed area around it."
+msgstr "Fecha a janela quando o visitante clica na área escurecida à volta."
+
+#: src/components/options-panel.js:75
+msgid "Describes the button for screen readers when the visible label is not descriptive on its own."
+msgstr "Descreve o botão para leitores de ecrã quando o texto visível não é suficientemente descritivo."
+
+#: src/components/options-panel.js:79
+msgid "Single sign-on provider for this block, overriding the site default."
+msgstr "Fornecedor de início de sessão único para este bloco; tem prioridade sobre a predefinição do site."
+
+#. Plugin Name of the plugin
+#: anny-bookings.php
+msgid "anny bookings"
+msgstr "anny bookings"

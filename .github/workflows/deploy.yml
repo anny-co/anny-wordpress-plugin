@@ -1,0 +1,58 @@
+name: Deploy to WordPress.org
+
+# Releases are cut by pushing a version tag, e.g.
+#
+#   git tag 1.0.0 && git push origin 1.0.0
+#
+# The job builds the assets (build/ is gitignored, so it only exists after a
+# build) and copies everything the .distignore allows into SVN trunk, then
+# into tags/<version>. WordPress serves whatever "Stable tag" in readme.txt
+# points at, so that line must match the tag being pushed.
+
+on:
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the tag
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build the bundles
+        run: npm run build
+
+      - name: Verify the tag matches the plugin version
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          HEADER=$(grep -oP '^\s*\*\s*Version:\s*\K.+' anny-bookings.php | tr -d '[:space:]')
+          STABLE=$(grep -oP '^Stable tag:\s*\K.+' readme.txt | tr -d '[:space:]')
+
+          echo "tag=$TAG header=$HEADER stable=$STABLE"
+
+          if [ "$TAG" != "$HEADER" ] || [ "$TAG" != "$STABLE" ]; then
+            echo "::error::Tag, plugin header and Stable tag must all be $TAG"
+            exit 1
+          fi
+
+      - name: Deploy to the plugin directory
+        uses: 10up/action-wordpress-plugin-deploy@stable
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SLUG: anny-bookings
+          ASSETS_DIR: .wordpress-org

@@ -1,0 +1,28 @@
+{
+	"name": "anny-bookings",
+	"version": "1.0.0",
+	"private": true,
+	"description": "anny booking widgets as native Gutenberg blocks.",
+	"author": "anny",
+	"license": "GPL-2.0-or-later",
+	"files": [
+		"anny-bookings.php",
+		"uninstall.php",
+		"readme.txt",
+		"LICENSE",
+		"widgets-manifest.json",
+		"assets",
+		"build",
+		"includes",
+		"languages"
+	],
+	"scripts": {
+		"build": "wp-scripts build src/index.js src/admin/brand-import.js",
+		"start": "wp-scripts start src/index.js",
+		"i18n:merge": "node scripts/merge-script-translations.mjs",
+		"plugin-zip": "npm run build && wp-scripts plugin-zip"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.0.0"
+	}
+}
