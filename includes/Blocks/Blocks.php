@@ -60,7 +60,7 @@ final class Blocks
     {
         wp_register_script(
             self::COMPONENTS_HANDLE,
-            $this->regions->scriptUrl(),
+            $this->regions->scriptUrl($this->settings->region()),
             [],
             // phpcs:ignore WordPress.WP.EnqueuedResourceParameters.MissingVersion -- Third-party CDN URL, versioned by the CDN itself.
             null,

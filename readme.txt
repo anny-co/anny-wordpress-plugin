@@ -85,9 +85,9 @@ Yes. Blocks reference your anny resources and services rather than copying them,
 
 Tokens are stored encrypted (libsodium) in the WordPress options table, are never rendered into pages or scripts, and can be revoked at any time by clicking "Disconnect".
 
-= Why does the plugin load a script from cdn.anny.co? =
+= Why does the plugin load a script from anny's CDN? =
 
-The anny widgets are web components delivered by the anny CDN, like other service SDKs (e.g. Stripe.js). The script is only loaded on pages that actually contain an anny block and inside the block editor.
+The anny widgets are web components delivered by the anny CDN (cdn.anny.co or cdn.anny.eu, matching your data region), like other service SDKs (e.g. Stripe.js). The script is only loaded on pages that actually contain an anny block and inside the block editor.
 
 == External services ==
 
@@ -96,9 +96,9 @@ This plugin is a front end for **anny**, the booking platform operated by anny G
 Terms of service: https://anny.co/terms
 Privacy policy: https://anny.co/privacy
 
-= 1. The anny widget script (cdn.anny.co) =
+= 1. The anny widget script (cdn.anny.co / cdn.anny.eu) =
 
-The booking widgets are web components loaded from anny's CDN. Your visitor's browser requests `https://cdn.anny.co/widget/annyComponents.umd.latest.min.js` on any page that contains an anny block, and in the block editor while you edit one. As with any asset request, the visitor's IP address and browser user agent reach the CDN. No other data is sent by the plugin.
+The booking widgets are web components loaded from anny's CDN. Your visitor's browser requests `annyComponents.umd.latest.min.js` from `cdn.anny.co` or `cdn.anny.eu`, depending on the selected data region, on any page that contains an anny block, and in the block editor while you edit one. As with any asset request, the visitor's IP address and browser user agent reach the CDN. No other data is sent by the plugin.
 
 = 2. The anny booking API (b.anny.co / b.anny.eu) =
 
